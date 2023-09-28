@@ -1,5 +1,5 @@
-# 02 Advanced CSS: Portfolio
-# Edit after finishing
+# PRETEND PORTFOLIO
+## I can make this repo private after I get a grade for it, right?
 
 ## Your Task
 
