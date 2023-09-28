@@ -1,6 +1,37 @@
 * {
     background-color: aliceblue;
 }
+header {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+main {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 3rem;
+    align-items: center;
+    justify-content: flex-start;
+    /* max-width: 50%; */
+}
+article {
+   flex-direction: column;
+    max-width: 50%;
+}
+ul #nav{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: space-between;
+}
+#works {
+    flex-direction: column;
+}
+
+li {
+    max-width: 50%;
+}
+
 /* 
 TO DO:
     Add ids as appropriate
