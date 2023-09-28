@@ -9,29 +9,43 @@ header {
 main {
     display: flex;
     /* flex-direction: column; */
-    gap: 3rem;
-    align-items: center;
+    align-items: space-around;
     justify-content: flex-start;
+    gap: 3rem;
     /* max-width: 50%; */
 }
 article {
    flex-direction: column;
-    max-width: 50%;
+   justify-content: space-around;
+   max-width: 50%;
 }
-ul #nav{
+
+#aboutMe {
+    /* also aligning?? */
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; 
+}
+    /* probably something about flex-grow or flex-basis */
+
+ul {
     display: flex;
     flex-direction: row;
     gap: 3rem;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 #works {
-    flex-direction: column;
+    flex-direction: row;
 }
 
 li {
-    max-width: 50%;
+    /* max-width: 25%; */
 }
-
+#contact {
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+}
 /* 
 TO DO:
     Add ids as appropriate
