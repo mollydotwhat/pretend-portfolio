@@ -20,6 +20,7 @@ Let’s take a look at what a user story written from the perspective of a hirin
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+
 ```
 
 
