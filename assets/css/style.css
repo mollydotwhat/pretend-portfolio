@@ -12,37 +12,46 @@ ul {
     gap: 3rem;
 }
 
+/* body {
+    display: flex;
+    gap: 5rem;
+} */
 
 main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-content {
-    display: flex;
-    gap: 3rem;
+    padding: 1rem;
+    display: flex; 
+    flex-wrap: wrap;
+    /*    flex-direction: row;
+    gap: 3;
+    align-self: center;
+*/
 }
 /* so every time I give an element the display: flex property it overrides ALL the flex styles of enclosing elements??? */
 article {
-   flex-direction: column;
-   justify-content: space-around;
+   display: flex;
+/* flex-direction: column; */
+   justify-content: center;
+   align-items: center;
+   display: flex;
    max-width: 50%;
 }
 
-#aboutMe p {
-    display: flex;
+#aboutMe {
+    /* display: flex; */
+    flex-direction: column;
     flex-wrap: nowrap;
-    align-items: space around;
-    gap: 3rem;
+    align-items: space-around;
+    justify-content: space-around;
 
 }
 
-#works ul {
+ #works ul {
     display: flex;
     flex-direction: row; 
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start; 
+    justify-content: center;
+    row-gap: 1rem;
+    /* align-items: flex-start;  */
 }
 
 #works ul li.first{
