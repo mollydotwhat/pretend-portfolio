@@ -12,10 +12,6 @@ ul {
     gap: 3rem;
 }
 
-/* body {
-    display: flex;
-    gap: 5rem;
-} */
 
 main {
     padding: 1rem;
@@ -59,17 +55,9 @@ article {
     /* flex-wrap: wrap; unnecessary--inherited*/
 }
 
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-items: space-around;
-    align-content: space-between;
-    gap: 3rem;
-}
+
 
 #contact {
-    display: flex;
     min-width: 100%;
     justify-content: center;
 }
